@@ -5,35 +5,7 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-wp-app/wp-admin/
-wp-app/wp-content/index.php
-wp-app/wp-content/languages
-wp-app/wp-content/plugins/index.php
-wp-app/wp-content/themes/index.php
-wp-app/wp-includes/
-wp-app/index.php
-wp-app/license.txt
-wp-app/readme.html
-wp-app/wp-*.php
-wp-app/xmlrpc.php
-
-# Configuration
-wp-config.php
-
-# Example themes
-wp-app/wp-content/themes/Divi
-wp-app/wp-content/themes/hestia
-wp-app/wp-content/themes/oceanwp
-wp-app/wp-content/themes/twentytwentytwo
-
-# Example plugin
-wp-app/wp-content/plugins/divi-plus
-wp-app/wp-content/plugins/elementor
-wp-app/wp-content/plugins/ocean-extra
-wp-app/wp-content/plugins/wpforms-lite
-
-# Uploads
-wp-app/wp-content/uploads/
+wp-app/
 
 # Log files
 *.log
@@ -41,6 +13,7 @@ wp-app/wp-content/uploads/
 # htaccess
 /.htaccess
 
+.env
 # All plugins
 #
 # Note: If you wish to whitelist plugins,
